@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background-image: url(imagens/fundo.jpg);
+    display: flex;
+    background-repeat: repeat;
+    max-width: 100%;
+}
+.divp {
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    border-radius: 15px;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 5px solid black;
+}
+.links {
+    display: flex;
+    gap: 30px;
+    font-weight: 200;
+    align-items: center;
+}
+.links li{
+    padding: 10px;
+}
+.clinkx {
+    display: flex;
+    gap: 15px;
+}
+.linkp {
+    background-color: rgb(161, 10, 10);
+    border-radius: 20px;
+    font-size: medium;
+}
+.linkp:hover{
+    background-color: rgb(124, 13, 13);
+}
+.meio{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex: 500px 1 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:0 0 100px 0;
+}
+.img img{
+    max-width: 400px;
+}
+.nomes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 30px;
+    max-width: 400px;
+}
+button {
+    background-color:rgb(161, 10, 10) ;
+    border-radius: 20px;
+    width: 90px;
+    padding: 8px;
+}
+button:hover {
+    background-color: rgb(125, 8, 8) ;
+}
+@media (max-width: 1280px){
+    .nomes{
+        max-width: 100%;
+    }    
+    .img img{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
